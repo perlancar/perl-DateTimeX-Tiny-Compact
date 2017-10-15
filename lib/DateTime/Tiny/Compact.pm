@@ -97,6 +97,7 @@ sub DateTime {
 }
 
 1;
+# ABSTRACT: DateTime::Tiny but uses less space
 
 =for Pod::Coverage ^(.+)$
 
