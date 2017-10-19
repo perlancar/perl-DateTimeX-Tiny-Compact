@@ -1,4 +1,4 @@
-package DateTime::Tiny::Compact;
+package DateTimeX::Tiny::Compact;
 
 # DATE
 # VERSION
@@ -104,7 +104,7 @@ sub DateTime {
 =head1 SYNOPSIS
 
   # Create a date manually
-  $christmas = DateTime::Tiny::Compact->new(
+  $christmas = DateTimeX::Tiny::Compact->new(
       year   => 2006,
       month  => 12,
       day    => 25,
@@ -114,7 +114,7 @@ sub DateTime {
       );
 
   # Show the current date
-  my $now = DateTime::Tiny::Compact->now;
+  my $now = DateTimeX::Tiny::Compact->now;
   print "Year   : " . $now->year   . "\n";
   print "Month  : " . $now->month  . "\n";
   print "Day    : " . $now->day    . "\n";
@@ -127,7 +127,7 @@ sub DateTime {
 
 B<EXPERIMENTAL.>
 
-B<DateTime::Tiny::Compact> is a fork of L<DateTime::Tiny>. It uses
+B<DateTimeX::Tiny::Compact> is a fork of L<DateTime::Tiny>. It uses
 L<Class::Accessor::PackedString::Set> to create objects based on C<pack()>-ed
 string which is compact.
 
@@ -137,3 +137,5 @@ string which is compact.
 L<DateTime::Tiny>
 
 L<Class::Accessor::PackedString::Set>
+
+L<DateTimeX::Duration::Lite>
